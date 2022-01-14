@@ -11,6 +11,8 @@ Requirements & Assumptions
 Functionality test:
 1. Happy pass, buy 1 item and pay the amount(Test different types of transactions/combination of coin/bill/cc)
 2. Happy pass, Select multiple items in one go, and pay the amount
+    ++ More money than item
+    ++ Less money than item price - System should ask user for more money
 3. Select an item, and leave the system in "ready to pay" screen - Ensure it is will exit after reasonable time, say 30 secs
 4. Buy the same item in mutiple iterations - Ensure the flows are same for different iterations
 5. Select an empty item - Ensure system shows the error to the user e.g. "Please select a different item" 
