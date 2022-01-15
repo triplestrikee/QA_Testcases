@@ -17,13 +17,16 @@ Functionality test:
 4. Buy the same item in mutiple iterations - Ensure the flows are same for different iterations
 5. Select an empty item - Ensure system shows the error to the user e.g. "Please select a different item" 
 6. Enter the row/col which is out of the range of the item shelf - Ensure system shows the error to the user e.g. "Please select a different item" 
-7. 
+    ++ 7. verify dispenser 
+            - if item already present in dispenser : should display message to remove item from dispenser  
 
 Security test
 1. Assuming the item is placed outdoor - Ensure the safty of the power cord
 2. Ensure the hardware is roburst enough to prevent theif activity 
 3. Ensure the card data and transaction info are encrypted(online/offline)
 4. Ensure the payment module can work with different Merchant account
+    ++  - product security : machine door lock/ alarm
+    ++  - cash security
 
 
 Usability test
@@ -31,12 +34,15 @@ Usability test
 2. The labels on the item are clear and easy to read
 3. The whole process can be done in a reasonable time frame 
 4. Key pad and buttons are responsive
+    ++ - night or day time light
 
 Stress test
 1. Ensure the machine can be operated in different temperature/humidity
-2. The system doesn't slow down for say 1000 iterations(longevity test)
+2. The system doesn't slow down for say 1000 iterations(longevity test) 
+    ++ time out during different stages of transaction
 
 Hardware test
 1. Dimensions of the vending machine are correct
 2. Each component is well connected to each other(wire connections)
 3. Error message(code) should show if there is a hardware failure
+    
