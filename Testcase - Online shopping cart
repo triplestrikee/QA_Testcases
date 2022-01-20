@@ -1,1 +1,33 @@
+Requirements and assumption 
+Shopping cart for a normal enterprise e-commerce web application
+User can edit the number of the item/what in the shopping cart
+Testing will focus on shopping cart page
 
+
+Functionality test
+A happy pass guest user add items and checkout
+- user can modify the quantity of the item
+- user can remove the unwanted item
+- user can go outside the page and come back to continue the checkout flow
+- user will asked to enter the name/email/shipping address/card info
+- once transaction submitted user will get a confirmation
+
+A happy pass member user add items and checkout
+Same as above ^^ 
+- system will enter the name/email/shipping address/card info for user and ask user to confrim/update
+- membership price or free shipping autoapplied for member user
+
+Giftcard
+Coupon
+
+UI/UX test
+Page layout is clear and buttons are responsive
+Transaction can be processed in a short time
+Different payment option, giftcard 
+Quickcheckout - Member user has the option to checkout without being redirected to the enter infomation page
+
+Performance test
+The page should be responsive
+A big shopping cart should not slow down the checkout process
+
+Security test
