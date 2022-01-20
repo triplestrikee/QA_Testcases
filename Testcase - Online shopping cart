@@ -17,8 +17,9 @@ Same as above ^^
 - system will enter the name/email/shipping address/card info for user and ask user to confrim/update
 - membership price or free shipping autoapplied for member user
 
-Giftcard
-Coupon
+User should not able to add the out of stock items to the cart, or shouldn't to add the more quantity of the items than stock
+User can use different payment method, including giftcard
+User can use valid coupon to apply discount
 
 UI/UX test
 Page layout is clear and buttons are responsive
@@ -29,5 +30,9 @@ Quickcheckout - Member user has the option to checkout without being redirected 
 Performance test
 The page should be responsive
 A big shopping cart should not slow down the checkout process
+Payment processing time should be relativly short 
 
 Security test
+The use's card information should be encrypted during the checkout process
+SQL injection testing
+CROSS site script testing
