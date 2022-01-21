@@ -20,6 +20,8 @@ Same as above ^^
 User should not able to add the out of stock items to the cart, or shouldn't to add the more quantity of the items than stock
 User can use different payment method, including giftcard
 User can use valid coupon to apply discount
+++ Ensure no duplicates for same item listed in the cart
+++ Check the Math for the calculation 
 
 UI/UX test
 Page layout is clear and buttons are responsive
